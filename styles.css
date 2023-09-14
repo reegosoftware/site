@@ -52,7 +52,6 @@ header {
     background-color: #333;
     color: white;
     padding: 15px;
-    text-align: center;
 }
 
 #logo {
@@ -64,7 +63,6 @@ header {
 
 #menu {
     background-color: gray;
-    margin-bottom: 950px;
 }
 
 section {
@@ -152,7 +150,7 @@ section {
     bottom: 0;
     width: 100%;
     padding: 5px;
-    background-color: rgb(107, 142, 35); /*#2c595d;*/
+    background-color:#2c595d;  /*rgb(107, 142, 35);#2c595d;*/
     color: white;
     text-align: center;
 }
@@ -173,4 +171,16 @@ section {
     .topnav .icon {
         display: block;
     }
+}
+
+.color-red {
+    color: #d13543;
+}
+
+.color-yellow {
+    color: #eab913;
+}
+
+.color-blue {
+    color: #2da8b3;
 }
