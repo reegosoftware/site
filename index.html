@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="REEGO SOFTWARE DEVELOPMENT LIMITED - B2B Contracting Services">
-    <meta name="keywords" content="B2B, Contractor, Business Services, Softare Development | Web Development">
+    <meta name="keywords" content="B2B, Contractor, Business Services, Software Development | Web Development">
     <title>REEGO</title>
 
     <!-- Google tag (gtag.js) -->
@@ -15,16 +14,15 @@
 
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <nav>
+        <nav id="myTopnav">
             <div class="logo"> </div>
             <div id="logo">
                 <span class="catchword-header">
-                    REEGO SOFTWARE DEVELOPMENT LTD.
+                    REEGO SOFTWARE DEVELOPMENT LIMITED
                 </span>
-                <a href="#menu"><img src="logo.svg" /> </a>
+                <a href="#menu"><img alt="logo" src="logo.svg" /> </a>
             </div>
 
             <section id="menu">
@@ -48,9 +46,8 @@
     <section id="about">
         <h2>About Us</h2>
         <div class="developer">
-            <!-- <p class="vignette" style="width: 400px; height: 400px; background-image: url(hasany.jpg);"></p> -->
-            <div class="circle">
-                <img src="hasany.jpg" />
+            <div class="ellipse">
+                <img alt="developer" src="hasany.jpg" />
             </div>
             <a class="portfolio" href="http://hasanyilmaz.co/" target="_blank">
                 <h3>Hasan Yilmaz</h3>
@@ -73,21 +70,21 @@
 
             <li>
                 <span><b>Software Development & Integration: </b></span>
-                <span style="display: none;"> Custom Software Development, Systems Integration, API Development </span>
+                <span class="hidden"> Custom Software Development, Systems Integration, API Development </span>
                 <span>We craft bespoke software solutions and integrate existing systems to enhance functionality
                     anddrive innovation within your organization.</span>
             </li>
             <br />
             <li>
                 <span><b>IT Infrastructure & Support: </b></span>
-                <span style="display: none;"> Network Management, IT Support, Cloud Solutions </span>
+                <span class="hidden"> Network Management, IT Support, Cloud Solutions </span>
                 <span>Our robust IT infrastructure services ensure that your network and systems run smoothly. We offer
                     24/7 support to address any technical challenges.</span>
             </li>
             <br />
             <li>
                 <span><b>Digital Transformation & Automation: </b></span>
-                <span style="display: none;"> Process Automation, Digital Transformation, AI Solutions </span>
+                <span class="hidden"> Process Automation, Digital Transformation, AI Solutions </span>
                 <span> Stay ahead of the competition with our digital transformation and automation services. We help
                     you streamline operations and leverage cutting-edge technology.</span>
             </li>
@@ -98,15 +95,20 @@
         <h2>Contact Us</h2>
         <p>
             <a class="portfolio" href="mailto:yilmazhasan111@gmail.com">yilmazhasan111@gmail.com</a>
-            <a class="contact" href="#">+90 555 690 7419</a>
+            <a class="contact" href="tel:+905555555555">+90 555 555 55 55</a>
         </p>
     </section>
-    <span class="catchword-footer">
-        Code without Borders, Creativity beyond Limits.
-    </span>
-    <footer>
-        <p>© 2023 REEGO SOFTWARE DEVELOPMENT LIMITED</p>
+    <footer class="catchword-footer">
+            Code without Borders, Creativity beyond Limits.
     </footer>
+    <footer class="reego-footer">
+        <p>&copy; 2023 REEGO SOFTWARE DEVELOPMENT LIMITED</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    </script>
 </body>
-
 </html>

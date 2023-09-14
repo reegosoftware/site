@@ -3,14 +3,19 @@ html {
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(107, 142, 35);;
     overflow: hidden;
 }
 
@@ -23,6 +28,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 /* Change the color of links on hover */
@@ -46,6 +52,7 @@ header {
     background-color: #333;
     color: white;
     padding: 15px;
+    text-align: center;
 }
 
 #logo {
@@ -65,24 +72,17 @@ section {
     background-color: #f1f1f1;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 18px;
-}
-
-.circle {
+.ellipse {
     border-radius: 50%;
     display: inline-block;
     position: relative;
     margin: 1em auto;
     width: 40%;
     height: 30%;
+    overflow: hidden;
 }
 
-.circle img {
+.ellipse img {
     width: 99%;
     height: 99%;
     border-radius: 50%;
@@ -90,7 +90,7 @@ footer {
     border: 1px solid #fff;
 }
 
-.circle:after {
+.ellipse:after {
     content: "";
     display: block;
     width: 100%;
@@ -106,7 +106,7 @@ footer {
 .contact:visited {
     background-color: white;
     color: black;
-    border: 2px solid green;
+    border: 2px solid rgb(107, 142, 35);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -117,7 +117,7 @@ footer {
 .portfolio:visited {
     background-color: white;
     color: black;
-    border: 2px solid green;
+    border: 2px solid rgb(107, 142, 35);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -126,7 +126,7 @@ footer {
 
 .portfolio:hover,
 .portfolio:active {
-    background-color: green;
+    background-color: rgb(107, 142, 35);
     color: white;
 }
 
@@ -138,13 +138,39 @@ footer {
     text-align: justify;
 }
 
+.reego-footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 .catchword-footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #2c595d;
-    background-color: #2c595d;
+    padding: 5px;
+    background-color: rgb(107, 142, 35); /*#2c595d;*/
     color: white;
     text-align: center;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    .topnav a {
+        float: none;
+        text-align: left;
+    }
+
+    .topnav {
+        text-align: center;
+    }
+
+    .topnav .icon {
+        display: block;
+    }
 }
