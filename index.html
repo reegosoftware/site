@@ -1,159 +1,749 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="REEGO SOFTWARE DEVELOPMENT LIMITED - B2B Contracting Services">
-    <meta name="keywords" content="B2B, Contractor, Business Services, Software Development | Web Development">
     <title>REEGO</title>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F0HBYHP0ZV"></script>
-    <script src="./analytics.js"></script>
-    <!-- Google tag (gtag.js) -->
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header>
-        <nav id="myTopnav">
-            <div class="logo"> </div>
-            <div id="logo">
-                <span class="catchword-header">
-                    <span class="color-red">
-                        REEGO
-                    </span>
-                    <span class="color-yellow">
-                        SOFTWARE
-                    </span>
-                    <span class="color-blue">
-                        DEVELOPMENT
-                    </span>
-                    <span class="color-red">
-                        LIMITED
-                    </span>
-                </span>
-                <a href="#menu"><img alt="logo" src="logo.svg" /> </a>
-            </div>
-
-            <section id="menu">
-                <div class="topnav" id="myTopnav">
-                    <a href="#home"><span class="color-yellow"> Home </span></a>
-                    <a href="#about"><span class="color-blue"> About </span></a>
-                    <a href="#services"><span class="color-red"> Services </span></a>
-                    <a href="#contact"><span class="color-yellow"> Contact </span></a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <a href="#home"><img alt="logo" src="logo.svg" /> </a>
-            </section>
-        </nav>
-    </header>
-    <section id="home">
-        <h1>Welcome to
-            <span class="color-blue">
-                R
-            </span>
-            <span class="color-red">
-                E
-            </span>
-            <span class="color-red">
-                E
-            </span>
-            <span class="color-yellow"">
-                G
-            </span>
-            <span class=" color-blue">
-                O
-            </span>
-        </h1>
-        <p>We offer specialized B2B contracting services for your industry.</p>
-    </section>
-    <section id="about">
-        <h2>About Us</h2>
-        <div class="developer">
-            <div class="ellipse">
-                <img alt="developer" src="hasany.jpg" />
-            </div>
-            <a class="portfolio" href="http://hasanyilmaz.co/" target="_blank">
-                <h3>Hasan Yilmaz</h3>
-            </a>
-
-            <p>With over 10 years of experience in software development, Hasan specializes in creating robust and
-                scalable solutions for B2B clients. His expertise in Web technology has earned him
-                recognition in the industry.</p>
-        </div>
-        <p>We are a small yet dynamic team of developers passionate about providing top-notch B2B contractor services.
-            Our collaborative approach ensures that we understand your business needs and deliver tailored solutions
-            that drive success.</p>
-    </section>
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>At ReeGO, we specialize in providing top-tier B2B contracting services tailored to meet the unique needs of
-            our clients. Our comprehensive solutions are designed to drive growth, efficiency, and success for
-            businesses of all sizes. Explore our range of services below:</p>
-        <ol>
-
-            <li>
-                <span><b>Software Development & Integration: </b></span>
-                <span class="hidden"> Custom Software Development, Systems Integration, API Development </span>
-                <span>We craft bespoke software solutions and integrate existing systems to enhance functionality
-                    anddrive innovation within your organization.</span>
-            </li>
-            <br />
-            <li>
-                <span><b>IT Infrastructure & Support: </b></span>
-                <span class="hidden"> Network Management, IT Support, Cloud Solutions </span>
-                <span>Our robust IT infrastructure services ensure that your network and systems run smoothly. We offer
-                    24/7 support to address any technical challenges.</span>
-            </li>
-            <br />
-            <li>
-                <span><b>Digital Transformation & Automation: </b></span>
-                <span class="hidden"> Process Automation, Digital Transformation, AI Solutions </span>
-                <span> Stay ahead of the competition with our digital transformation and automation services. We help
-                    you streamline operations and leverage cutting-edge technology.</span>
-            </li>
-        </ol>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>
-            <a class="portfolio" href="mailto:yilmazhasan111@gmail.com">yilmazhasan111@gmail.com</a>
-            <a class="contact" href="tel:+905555555555">+90 555 555 55 55</a>
-        </p>
-    </section>
-    <footer class="catchword-footer">
-        <span class="color-red">
-            Code
-        </span>
-        without
-        <span class="color-blue">
-            Borders
-        </span>
-        ,
-        <span class="color-yellow">
-            Creativity
-        </span>
-        beyond
-        <span class="color-red">
-            Limits
-        </span>
-        .
-    </footer>
-    <footer class="reego-footer">
-        <p>&copy; 2023 REEGO SOFTWARE DEVELOPMENT LIMITED</p>
-    </footer>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JB2M4X9EKH"></script>
     <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            menu.style.display = menu.style.display === "block" ? "none" : "block";
-        }
-    </script>
-</body>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-JB2M4X9EKH');
+    </script>
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.svg" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-left clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#feature">
+                  feature
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Team
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">
+                  Testimonial
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <div class="btn-sing float-right">
+              <a class="btn btn-border" href="#feature">FAQ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu navbar-nav">
+          <li>
+            <a class="page-scroll" href="#hero-area">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#services">
+              Services
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#feature">
+              feature
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">
+              Team
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#testimonial">
+              Testimonial
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#pricing">
+              Pricing
+            </a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="contents text-center">
+                <h2 class="head-title wow fadeInUp">Code without Borders.<br> Creativity beyond Limits.</h2>
+                <!-- <div class="header-button wow fadeInUp" data-wow-delay="0.3s">
+                  <a href="#" class="btn btn-common">Download Now</a>
+                </div> -->
+              </div>
+              <div class="img-thumb text-center wow fadeInUp" data-wow-delay="0.6s">
+                <img class="img-fluid" src="assets/img/hero-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Services</h2>
+        </div>
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Web Development</a></h3>
+                <p>
+                  Elevate your digital presence with our cutting-edge web development services. We specialize in creating robust, scalable, and high-performing web applications utilizing a versatile suite of technologies including NodeJS, Django, React, Flask, FastAPI, Fastify, and C# .NET. From dynamic front-end interfaces to secure and efficient back-end solutions, our team is equipped with the expertise to transform your vision into reality. Partner with us to leverage the latest advancements in technology for a seamless online experience, ensuring your business stands out in an increasingly competitive digital landscape.                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="lni-bar-chart"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Graphic Design</a></h3>
+                <p>
+                  Transform your digital presence with our cutting-edge Graphic Design and UI/UX Development services. Our expertise in React, Angular, CSS, and Bootstrap ensures your applications are not only visually stunning but also highly functional and responsive. Leveraging these advanced technologies, we craft seamless, engaging user experiences that elevate your brand identity and captivate your audience. Partner with us to bring your vision to life with innovation and precision.                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="lni-briefcase"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Business Branding</a></h3>
+                <p>
+                  Unlock your brand's potential with our cutting-edge SEO and indexing solutions. At Reego, we specialize in enhancing your visibility on search engines, driving organic traffic, and boosting online presence. Our expert team leverages the latest technologies and best practices to ensure your business stands out in the digital landscape. Trust us to elevate your brand with strategic and results-driven SEO improvements that put you ahead of the competition. Let us help you be found by those who matter most.                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="lni-pencil-alt"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Content Writing</a></h3>
+                <p>
+                  Unlock the future of your industry with our bespoke content writing solutions. Specializing in key sectors like Healthcare, eLearning, Insurance, Finance, our expertly crafted content not only engages but informs and inspires your audience. Our team of professional writers leverages industry insights and advanced methodologies to deliver clear, compelling, and compliant content that builds trust and drives business growth. Let us transform your communication strategies into powerful narratives that resonate with your target market and elevate your brand to new heights.                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
+              <div class="icon">
+                <i class="lni-mobile"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">App Development</a></h3>
+                <p>
+                  Unlock the full potential of your business with our comprehensive app development services. Specializing in Web Apps, Desktop Apps, Mobile Apps, Web APIs, and Web Services, we are committed to transforming your ideas into innovative digital solutions. Our team of skilled developers combines cutting-edge technology with industry expertise to deliver fully customized applications tailored to your unique needs. With a focus on performance and user experience, our solutions drive efficiency, enhance engagement, and propel your business forward. Let us partner with you to turn your vision into reality and build the future of your enterprise.                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
+              <div class="icon">
+                <i class="lni-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Digital Marketing</a></h3>
+                <p>
+                  Unlock the potential of your brand with our comprehensive Digital Marketing solutions. Our expert services span the essentials of modern marketing, including eye-catching banner design, impactful flyers, targeted advertisements, and seamless SEO optimization. Let us drive your business forward by enhancing your online presence and connecting you with your ideal audience. Trust us to deliver innovative strategies that maximize your brand's visibility and growth in today's competitive market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+
+    <!-- Feature Section Start -->
+    <div id="feature">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="text-wrapper">
+              <div>
+                <h2 class="title-hl wow fadeInLeft" data-wow-delay="0.3s">Learn More About Us</h2>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.3s">
+                      <div class="features-icon">
+                        <i class="lni-layers"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Expertise You Can Trust
+                        </h4>
+                        <p>
+                          Our team is equipped with the latest technological insights and a track record of successful digital transformations.
+                        </p>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.6s">
+                      <div class="features-icon">
+                        <i class="lni-briefcase"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Tailored Solutions
+                        </h4>
+                        <p>
+                          We pride ourselves on offering customized IT and digital services that meet your unique business needs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>           
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="0.9s">
+                      <div class="features-icon">
+                       <i class="lni-cog"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Collaborative Approach
+                        </h4>
+                        <p>
+                          Our partnership-driven philosophy ensures that every project is a joint venture towards mutual success.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="features-box wow fadeInLeft" data-wow-delay="1.2s">
+                      <div class="features-icon">
+                        <i class="lni-leaf"></i>
+                      </div>
+                      <div class="features-content">
+                        <h4>
+                          Innovation at Its Best:
+                        </h4>
+                        <p>
+                          Stay ahead of the competition with cutting-edge technology and forward-thinking strategies.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 padding-none">
+            <div class="feature-thumb wow fadeInRight" data-wow-delay="0.3s">
+              <img src="assets/img/feature/img-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-header text-center">
+              <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Team</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="hasanyilmaz.co">Hasan YILMAZ</a></h3>
+                <p>Full-stack Developer</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Developer 2</a></h3>
+                <p>Backend Developer</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item text-center">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="#">Developer 3</a></h3>
+                <p>Frontend Developer</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Clients Section Start -->
+    <div id="clients" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">As Seen On</h2>
+        </div>
+        <div class="row text-align-">
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img1.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img2.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid" src="assets/img/clients/img3.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-12 wow fadeInUp" data-wow-delay="1.2s">
+            <div class="client-item-wrapper">
+              <img class="img-fluid"  src="assets/img/clients/img4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Clients Section End -->
+
+    <!-- Testimonial Section Start -->
+    <section id="testimonial" class="testimonial section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <div id="testimonials" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img1.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Grenchen Pearce</a></h2>
+                    <h3><a href="#">Boston Brothers co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img2.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Domeni GEsson</a></h2>
+                    <h3><a href="#">Awesome Technology co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img3.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Dommini Albert</a></h2>
+                    <h3><a href="#">Nesnal Design co.</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img4.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Fernanda Anaya</a></h2>
+                    <h3><a href="#">Developer</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-item">
+                  <div class="content">
+                    <p class="description">Holisticly empower leveraged ROI whereas effective web-readiness. Completely enable emerging meta-services with cross-platform web services. Quickly initiate inexpensive total linkage rather than extensible scenarios. Holisticly empower leveraged ROI whereas effective web-readiness. </p>
+                  </div>
+                  <div class="img-thumb">
+                    <img src="assets/img/testimonial/img5.png" alt="">
+                  </div>
+                  <div class="info">
+                    <h2><a href="#">Jason A.</a></h2>
+                    <h3><a href="#">Designer</a></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->  
+
+    <!-- Pricing section Start --> 
+    <section id="pricing" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInLeft" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Basic</h3>
+              </div>
+              <div class="pricing-header">
+                <p class="price-value">$60<span>/ Hour</span></p>
+              </div>
+              <ul class="description">
+                <li>Up to 1 projects </li>
+                <li>Up to 1 collabrators</li>
+                <li>Up to 3 months of development</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 active">
+            <div class="table wow fadeInUp" id="active-tb" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Profesional</h3>
+              </div>
+               <div class="pricing-header">
+                  <p class="price-value">$55<span>/ Hour</span></p>
+               </div>
+              <ul class="description">   
+                <li>Up to 3 projects</li>
+                <li>Up to 3 collabrators</li>
+                <li>Up to 12 months of development</li>
+                <li>Real-time collabration</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+           </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="table wow fadeInRight" data-wow-delay="1.2s">
+              <div class="title">
+                <h3>Expert</h3>
+              </div>
+               <div class="pricing-header">
+                  <p class="price-value">$50<span>/ Hour</span></p>
+               </div>
+              <ul class="description">
+                <li>unlimited projects </li>
+                <li>Unlimited collabrators</li>
+                <li>Unlimited development duration</li>
+                <li>Real-time collabration</li>
+                <li>24x7 Support</li>
+              </ul>
+              <button class="btn btn-common">Get It</button>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Table Section End -->
+
+    <!-- Owl Slider Section Start -->
+    <section class="sloder-img section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="slider-center slider">
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img1.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img2.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img3.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img4.jpg" alt="">
+              </div>
+              <div>
+                <img class="img-fluid" src="assets/img/slide/img5.jpg" alt="">
+              </div>
+              <div>
+                <img  class="img-fluid" src="assets/img/slide/img6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Owl Slider Section End -->  
+
+    <!-- Subscribe Section Start -->
+    <section id="Subscribes" class="subscribes section-padding">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-10 col-lg-5">
+            <h4 class="wow fadeInUp" data-wow-delay="0.3s">Start For Free</h4>
+            <p class="wow fadeInUp" data-wow-delay="0.6s">Existing customized ideas through client-based deliverables. <br> Compellingly unleash fully tested outsourcing</p>
+            <form for="">
+              <div class="subscribe wow fadeInDown" data-wow-delay="0.3s">
+                <input type="Email" class="form-control" name="email" placeholder="Email Address">
+                <button class="btn-submit" type="submit"><i class="lni-arrow-right"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">
+      <div class="container wow fadeIn animated" style="visibility: visible;">
+        <h2 class="section-title">Looking forward to hearing from you</h2>
+        <div class="row">
+          <div class="text-center">
+            <h4>Partner with Us</h4><br>
+            <b>for Exceptional IT and Digital Solutions:</b>
+            <p>- Expertise You Can Trust</p>
+            <p>- Tailored Solutions</p>
+            <p>- Collaborative Approach</p>
+            <p>- Innovation at Its Best</p>
+            <br>
+            <a href="mailto:reego.software@gmail.com" target="_blank" class="btn btn-common btn-lg">Contact Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+  
+
+	  <!-- Footer Section Start -->
+    <footer id="footer" class="footer-area section-padding">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+              <div class="footer-logo mb-3">
+                <img src="assets/img/logo.png" alt="">
+              </div>
+              <p>Let us be your strategic partner in driving growth and maximizing efficiency in your IT and digital ventures.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+              <h3 class="footer-titel">Company</h3>
+              <ul>
+                <li><a href="#">Press Releases</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Strategy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+              <h3 class="footer-titel">About</h3>
+              <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Clients</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+              <h3 class="footer-titel">Find us on</h3>
+              <div class="social-icon">
+  	            <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
+  	            <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
+  	            <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
+  	            <a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>     
+    </footer> 
+    <!-- Footer Section End -->
+
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright © 2024 Reego Software All Right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>   
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-arrow-up"></i>
+    </a>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
