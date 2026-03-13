@@ -347,6 +347,8 @@ hr {
 
 .client-item-wrapper img {
   opacity: 0.5;
+  width:100px;
+  height:100px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   filter: gray;
