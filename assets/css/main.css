@@ -80,6 +80,26 @@ ul li, ol li {
   padding: 0px;
 }
 
+.padding-all {
+  padding: 10px;
+}
+
+.padding-bottom {
+  padding-top: 15px;
+}
+
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
+.solid-list {
+  list-style-type:disc;
+}
+
+.center-content {
+  justify-content: center;
+}
+
 .btn {
   font-size: 14px;
   padding: 10px 30px;
@@ -1324,8 +1344,8 @@ textarea {
   content: '\002B';
   color: #777;
   font-weight: bold;
-  float: right;
-  margin-left: 5px;
+  float: left;
+  margin-right: 5px;
 }
 
 .accordion-active:after {
